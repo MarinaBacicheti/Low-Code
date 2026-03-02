@@ -1,0 +1,22 @@
+h1{
+    color: #90ee90;
+}
+
+h2 {
+    color: #FF00FF;
+}
+
+p {
+    color: #ffffff;
+    background-color: #000000;
+    text-align: justify;    
+}
+
+button {
+    color: #FF0000;
+    background-color: #ff8da1;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
