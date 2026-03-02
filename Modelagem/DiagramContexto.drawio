@@ -1,0 +1,141 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Página-1" id="TBKIPOY4ZTwFRn1Ugnos">
+    <mxGraphModel dx="1188" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SISTEMA DE GESTÃO DE ENCOMENDAS" vertex="1">
+          <mxGeometry height="150" width="160" x="340" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cliente" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Operador de loja" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Transportadora" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sistema de pagamento" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Gestor" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="270" as="sourcePoint" />
+            <mxPoint x="342.3188096852166" y="270.0035714658192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-11" connectable="0" parent="LcoCOKpJKm3hQsWLMxb7-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="- Conclui pedido&lt;div&gt;- Envia dados&lt;/div&gt;&lt;div&gt;- Pede fatura&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3434" y="-3" as="geometry">
+            <mxPoint x="30" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=1.025;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" target="LcoCOKpJKm3hQsWLMxb7-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="390" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-13" connectable="0" parent="LcoCOKpJKm3hQsWLMxb7-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="- Confirma encomenda&lt;div&gt;- Estado da encomenda&lt;/div&gt;&lt;div&gt;- Envia fatura&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2571" y="-1" as="geometry">
+            <mxPoint x="-14" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="431" y="111" />
+            </Array>
+            <mxPoint x="431" y="121" as="sourcePoint" />
+            <mxPoint x="431" y="211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-18" connectable="0" parent="LcoCOKpJKm3hQsWLMxb7-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Estado encomenda" vertex="1">
+          <mxGeometry relative="1" x="-0.0727" y="2" as="geometry">
+            <mxPoint x="58" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.383;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="LcoCOKpJKm3hQsWLMxb7-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="411" y="211" as="sourcePoint" />
+            <mxPoint x="461" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-19" connectable="0" parent="LcoCOKpJKm3hQsWLMxb7-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Dados de expedição" vertex="1">
+          <mxGeometry relative="1" x="-0.0099" as="geometry">
+            <mxPoint x="-60" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-21" edge="1" parent="1" source="LcoCOKpJKm3hQsWLMxb7-1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.992;exitY=0.313;exitDx=0;exitDy=0;exitPerimeter=0;" target="LcoCOKpJKm3hQsWLMxb7-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="230" as="sourcePoint" />
+            <mxPoint x="520" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-23" connectable="0" parent="LcoCOKpJKm3hQsWLMxb7-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Recebe o pagamento" vertex="1">
+          <mxGeometry relative="1" x="0.0755" as="geometry">
+            <mxPoint x="-6" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-22" edge="1" parent="1" source="LcoCOKpJKm3hQsWLMxb7-8" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" target="LcoCOKpJKm3hQsWLMxb7-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="210" as="sourcePoint" />
+            <mxPoint x="486.5250785176188" y="248.13569185210872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-24" connectable="0" parent="LcoCOKpJKm3hQsWLMxb7-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Confirma o pagamento" vertex="1">
+          <mxGeometry relative="1" x="-0.2086" y="3" as="geometry">
+            <mxPoint x="-9" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="LcoCOKpJKm3hQsWLMxb7-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="500" as="sourcePoint" />
+            <mxPoint x="330" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-28" connectable="0" parent="LcoCOKpJKm3hQsWLMxb7-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="- Separa o produto&lt;div&gt;- Atualiza o stock&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0224" y="2" as="geometry">
+            <mxPoint x="-49" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.4;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;" target="LcoCOKpJKm3hQsWLMxb7-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-27" connectable="0" parent="LcoCOKpJKm3hQsWLMxb7-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Recebe o pedido" vertex="1">
+          <mxGeometry relative="1" x="-0.0388" y="2" as="geometry">
+            <mxPoint x="28" y="43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.591;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="LcoCOKpJKm3hQsWLMxb7-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="340" as="sourcePoint" />
+            <mxPoint x="590" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-31" connectable="0" parent="LcoCOKpJKm3hQsWLMxb7-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Informação&amp;nbsp;&lt;div&gt;das vendas&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.474" as="geometry">
+            <mxPoint x="54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.775;entryY=0.944;entryDx=0;entryDy=0;entryPerimeter=0;" target="LcoCOKpJKm3hQsWLMxb7-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="509" as="sourcePoint" />
+            <mxPoint x="550" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LcoCOKpJKm3hQsWLMxb7-32" connectable="0" parent="LcoCOKpJKm3hQsWLMxb7-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Emite relatório" vertex="1">
+          <mxGeometry relative="1" x="0.2462" as="geometry">
+            <mxPoint x="-36" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

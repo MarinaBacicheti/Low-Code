@@ -1,0 +1,63 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Página-1" id="T3VbqOxv-5rumZUthf3W">
+    <mxGraphModel dx="643" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SISTEMA DE GESTÃO DE DESPESAS" vertex="1">
+          <mxGeometry height="160" width="160" x="320" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Utilizador" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="E-mail" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OQCWrm1VOK_pcY9fM8J3-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="260" as="sourcePoint" />
+            <mxPoint x="260" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-6" connectable="0" parent="OQCWrm1VOK_pcY9fM8J3-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="- Inserção de dados formulário&lt;div&gt;- Inserção de despesas&lt;/div&gt;&lt;div&gt;- Pedido de relatório&lt;/div&gt;&lt;div&gt;- Alteração despesa&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1273" y="1" as="geometry">
+            <mxPoint x="12" y="-89" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="259.5" as="sourcePoint" />
+            <mxPoint x="590" y="259.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-9" connectable="0" parent="OQCWrm1VOK_pcY9fM8J3-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="- Despesa inseridas&lt;div&gt;- Recuperação de senha&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-1" as="geometry">
+            <mxPoint x="-6" y="-60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-7" edge="1" parent="1" source="OQCWrm1VOK_pcY9fM8J3-1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.594;exitDx=0;exitDy=0;exitPerimeter=0;" target="OQCWrm1VOK_pcY9fM8J3-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="270" as="sourcePoint" />
+            <mxPoint x="370" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-8" connectable="0" parent="OQCWrm1VOK_pcY9fM8J3-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="- Disposição formulário&lt;div&gt;- Confirmação registro&lt;div&gt;- Formulário preenchido&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- Relatório pronto&lt;/div&gt;&lt;div&gt;- Registro de alteração&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3636" y="-1" as="geometry">
+            <mxPoint x="25" y="56" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="273" as="sourcePoint" />
+            <mxPoint x="480" y="273.31999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OQCWrm1VOK_pcY9fM8J3-11" connectable="0" parent="OQCWrm1VOK_pcY9fM8J3-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="- Alteração senha" vertex="1">
+          <mxGeometry relative="1" x="-0.0544" y="2" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

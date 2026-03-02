@@ -1,0 +1,327 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Página-1" id="MfDA-9gD8it9YDiAIKEs">
+    <mxGraphModel dx="813" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-3" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;" value="processo" vertex="1">
+          <mxGeometry height="50" width="100" x="90" y="-502" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-4" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="entidade externa / ator" vertex="1">
+          <mxGeometry height="50" width="100" x="355" y="-502" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="PmV-bifjMXfvZa1nOgGV-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="-490" as="sourcePoint" />
+            <mxPoint x="290" y="-490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-9" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="informação dados" vertex="1">
+          <mxGeometry relative="1" x="-0.12" y="-1" as="geometry">
+            <mxPoint x="7" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="-469" as="sourcePoint" />
+            <mxPoint x="190" y="-469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-10" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="informação dados" vertex="1">
+          <mxGeometry relative="1" x="-0.12" y="1" as="geometry">
+            <mxPoint x="-10" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-8" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#f8cecc;strokeColor=#b85450;" value="DFD - NÍVEL 0 (Diagrama de Contexto)&lt;div&gt;visão macro do sistema&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="290" x="10" y="-382" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-11" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#FF0000;strokeWidth=1;" value="1" vertex="1">
+          <mxGeometry height="50" width="100" x="220" y="-262" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-24" edge="1" parent="PmV-bifjMXfvZa1nOgGV-11" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="45" y="50" as="sourcePoint" />
+            <mxPoint x="45" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-25" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dados de&lt;div&gt;pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.275" y="1" as="geometry">
+            <mxPoint x="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-16" parent="PmV-bifjMXfvZa1nOgGV-11" style="text;html=1;whiteSpace=wrap;strokeColor=light-dark(#ed0c0c, #ededed);fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Livraria Online" vertex="1">
+          <mxGeometry height="30" width="100" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-12" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#f8cecc;strokeColor=#b85450;" value="Notação Gane &amp;amp; Sarson" vertex="1">
+          <mxGeometry height="40" width="290" x="10" y="-592" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-13" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Cliente" vertex="1">
+          <mxGeometry height="50" width="100" x="20" y="-262" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-14" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Armazém" vertex="1">
+          <mxGeometry height="50" width="100" x="420" y="-262" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-15" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Método de pagamento" vertex="1">
+          <mxGeometry height="50" width="100" x="220" y="-132" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="-232" as="sourcePoint" />
+            <mxPoint x="220" y="-232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-19" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dados da&amp;nbsp;&lt;div&gt;encomenda&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="1" as="geometry">
+            <mxPoint x="10" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-18" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="-237.5" as="sourcePoint" />
+            <mxPoint x="420" y="-237.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-21" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dados da&lt;div&gt;encomenda&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="1" as="geometry">
+            <mxPoint x="10" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="-252" as="sourcePoint" />
+            <mxPoint x="321" y="-252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-23" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="- Estado da&lt;div&gt;encomenda&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1717" y="-2" as="geometry">
+            <mxPoint x="8" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="278" y="-132" as="sourcePoint" />
+            <mxPoint x="278" y="-212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-27" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Confirmação de&lt;div&gt;pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.013" y="-2" as="geometry">
+            <mxPoint x="48" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-28" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#f8cecc;strokeColor=#b85450;" value="DFD - NÍVEL 1&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="290" x="10" y="-32" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-29" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;strokeColor=#FF0000;strokeWidth=1;" value="1.1" vertex="1">
+          <mxGeometry height="60" width="233" x="220" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-32" parent="PmV-bifjMXfvZa1nOgGV-29" style="text;html=1;whiteSpace=wrap;strokeColor=light-dark(#ed0c0c, #ededed);fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Processo - Encomenda do cliente&lt;div&gt;&amp;nbsp;(artigos, qts, preço)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="233" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-33" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Cliente" vertex="1">
+          <mxGeometry height="50" width="100" x="20" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-34" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="109.38" as="sourcePoint" />
+            <mxPoint x="220" y="109.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-35" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dados da&amp;nbsp;&lt;div&gt;encomenda&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="1" as="geometry">
+            <mxPoint x="10" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-36" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Armazém" vertex="1">
+          <mxGeometry height="50" width="100" x="873" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-37" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="773" y="109.5" as="sourcePoint" />
+            <mxPoint x="873" y="109.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-38" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dados da&lt;div&gt;encomenda&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="1" as="geometry">
+            <mxPoint x="10" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="873" y="95" as="sourcePoint" />
+            <mxPoint x="774" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-40" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Informação do&lt;div&gt;stock&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1717" y="-2" as="geometry">
+            <mxPoint x="8" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-42" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;strokeColor=#FF0000;strokeWidth=1;" value="1.2" vertex="1">
+          <mxGeometry height="60" width="233" x="222" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-43" parent="PmV-bifjMXfvZa1nOgGV-42" style="text;html=1;whiteSpace=wrap;strokeColor=light-dark(#ed0c0c, #ededed);fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Processo&amp;nbsp;&lt;div&gt;pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="233" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-44" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;strokeColor=#FF0000;strokeWidth=1;" value="1.3" vertex="1">
+          <mxGeometry height="60" width="233" x="540" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-45" parent="PmV-bifjMXfvZa1nOgGV-44" style="text;html=1;whiteSpace=wrap;strokeColor=light-dark(#ed0c0c, #ededed);fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Processo&lt;div&gt;Verificação stock&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="233" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="455" y="110" as="sourcePoint" />
+            <mxPoint x="542" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-47" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dados da&lt;div&gt;encomenda&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2037" y="3" as="geometry">
+            <mxPoint x="4" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-48" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="94" as="sourcePoint" />
+            <mxPoint x="453" y="94" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-49" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Informação do&lt;div&gt;stock&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4464" y="-5" as="geometry">
+            <mxPoint x="21" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-60" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Método de pagamento" vertex="1">
+          <mxGeometry height="50" width="100" x="600" y="243" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-62" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="456" y="274" as="sourcePoint" />
+            <mxPoint x="600" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-63" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Detalhes do valor e&lt;div&gt;&amp;nbsp;método de pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.022" y="4" as="geometry">
+            <mxPoint y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-64" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#3333FF;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="254" as="sourcePoint" />
+            <mxPoint x="455" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-65" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Confirmação de&amp;nbsp;&lt;div&gt;pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.092" y="-4" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-66" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="219" y="-250" as="sourcePoint" />
+            <mxPoint x="120" y="-250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-67" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-66" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Estado da&lt;div&gt;encomenda&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1717" y="-2" as="geometry">
+            <mxPoint x="8" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-69" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="219" y="90" as="sourcePoint" />
+            <mxPoint x="120" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-70" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Estado da&lt;div&gt;encomenda&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1717" y="-2" as="geometry">
+            <mxPoint x="8" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-72" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.601;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="337.87" y="239.16" as="sourcePoint" />
+            <mxPoint x="337.9029999999999" y="139.99999999999991" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-73" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-72" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Confirmação de&lt;div&gt;&amp;nbsp;pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3445" y="-1" as="geometry">
+            <mxPoint x="44" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-50" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.338;entryY=-0.028;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="140" as="sourcePoint" />
+            <mxPoint x="320.7539999999999" y="238.31999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-51" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Detalhes do valor e&lt;div&gt;método de pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1439" y="-2" as="geometry">
+            <mxPoint x="-68" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-74" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#f8cecc;strokeColor=#b85450;" value="DFD - NÍVEL 2" vertex="1">
+          <mxGeometry height="40" width="290" x="10" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-75" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;strokeColor=#FF0000;strokeWidth=1;" value="1.2" vertex="1">
+          <mxGeometry height="60" width="233" x="222" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-76" parent="PmV-bifjMXfvZa1nOgGV-75" style="text;html=1;whiteSpace=wrap;strokeColor=light-dark(#ed0c0c, #ededed);fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Processo&amp;nbsp;&lt;div&gt;pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="233" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-77" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;strokeColor=#FF0000;strokeWidth=1;" value="1.2.1" vertex="1">
+          <mxGeometry height="60" width="233" x="580" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-78" parent="PmV-bifjMXfvZa1nOgGV-77" style="text;html=1;whiteSpace=wrap;strokeColor=light-dark(#ed0c0c, #ededed);fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Validação do método de&lt;div&gt;pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="233" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-79" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="PmV-bifjMXfvZa1nOgGV-78" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="457" y="510" as="sourcePoint" />
+            <mxPoint x="507" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-80" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-79" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Informações de&lt;div&gt;pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3685" as="geometry">
+            <mxPoint x="24" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-84" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;strokeColor=#FF0000;strokeWidth=1;" value="1.2.2" vertex="1">
+          <mxGeometry height="50" width="233" x="580" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-91" edge="1" parent="PmV-bifjMXfvZa1nOgGV-84" source="PmV-bifjMXfvZa1nOgGV-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="35" as="sourcePoint" />
+            <mxPoint x="-180" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-92" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Informações de&lt;div&gt;&amp;nbsp;pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0417" as="geometry">
+            <mxPoint y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-98" parent="PmV-bifjMXfvZa1nOgGV-84" style="text;html=1;whiteSpace=wrap;strokeColor=light-dark(#ed0c0c, #ededed);fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Pedido de pagamento" vertex="1">
+          <mxGeometry height="30" width="233" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-88" edge="1" parent="1" source="PmV-bifjMXfvZa1nOgGV-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PmV-bifjMXfvZa1nOgGV-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-89" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Informação de método válidado" vertex="1">
+          <mxGeometry relative="1" x="-0.1142" y="3" as="geometry">
+            <mxPoint x="81" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-96" edge="1" parent="1" source="PmV-bifjMXfvZa1nOgGV-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#0008ff, #ededed);" target="PmV-bifjMXfvZa1nOgGV-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-97" connectable="0" parent="PmV-bifjMXfvZa1nOgGV-96" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Confirmação de&lt;div&gt;pagamento&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0928" as="geometry">
+            <mxPoint x="52" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PmV-bifjMXfvZa1nOgGV-90" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Gateway de pagamento" vertex="1">
+          <mxGeometry height="80" width="123" x="277" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
