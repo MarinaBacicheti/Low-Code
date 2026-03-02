@@ -1,0 +1,11 @@
+- Pilares Comportamento Computacional
+- Operadores
+- Estruturas condicionais e de repetição (o que são e quais são)
+- Diferenças entre Pensamento Computacional e Lógica de programação (definição e exemplos)
+-Tabelas de decisão
+- Fluxogramas 
+- Algoritmos - pseudo codigo
+- Saber os tipos de paradigmas (definição e quais)
+- Programação Convencional, Low Code e No Code
+- Datatype, variáveis, constantes
+- Estruturas de organização da informação 
